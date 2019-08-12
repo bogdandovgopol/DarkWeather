@@ -13,6 +13,7 @@ class LocationListVC: UIViewController {
     
     //Outlets
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var welcomeBtn: UIButton!
     
     //Variables
     var forecastLocations: [ForecastLocation] = []
@@ -66,7 +67,15 @@ class LocationListVC: UIViewController {
         }
         dispatchGroup.notify(queue: .main) {
             self.tableView.reloadData()
-            
+            self.hideWelcomeButtonIfNeeded()
+        }
+    }
+    
+    fileprivate func hideWelcomeButtonIfNeeded() {
+        if forecastLocations.isEmpty {
+            welcomeBtn.isHidden = false
+        } else {
+            welcomeBtn.isHidden = true
         }
     }
 }

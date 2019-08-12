@@ -19,14 +19,17 @@ class AddLocationVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.tintColor = #colorLiteral(red: 0.1843137255, green: 0.2117647059, blue: 0.2666666667, alpha: 1)
+        self.navigationController?.navigationBar.barStyle = .default
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         self.navigationController?.navigationBar.tintColor = #colorLiteral(red: 0.8173398972, green: 0.8310464025, blue: 0.8440452218, alpha: 1)
+        self.navigationController?.navigationBar.barStyle = .blackTranslucent
     }
     
     @IBAction func addLocationClicked(_ sender: Any) {

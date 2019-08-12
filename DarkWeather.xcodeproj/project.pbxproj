@@ -31,6 +31,7 @@
 		6FF05B6F23013FF900108E87 /* LocationListVC+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF05B6E23013FF900108E87 /* LocationListVC+UITableView.swift */; };
 		6FF05B7923014AA600108E87 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF05B7823014AA600108E87 /* BorderTextField.swift */; };
 		6FF05B7C23014C5200108E87 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF05B7B23014C5200108E87 /* BorderButton.swift */; };
+		6FF05B7F23016E6100108E87 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF05B7E23016E6100108E87 /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		6FF05B6E23013FF900108E87 /* LocationListVC+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationListVC+UITableView.swift"; sourceTree = "<group>"; };
 		6FF05B7823014AA600108E87 /* BorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
 		6FF05B7B23014C5200108E87 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		6FF05B7E23016E6100108E87 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				6F67AB1922FD7FCA00F4F599 /* Controller */,
+				6FF05B7D23016E1F00108E87 /* Extensions */,
 				6F67AB1722FD7FBD00F4F599 /* Model */,
 				6F67AB1822FD7FC500F4F599 /* View */,
 				6F67AB1F22FD86A400F4F599 /* Resources */,
@@ -281,6 +284,14 @@
 			path = UIButton;
 			sourceTree = "<group>";
 		};
+		6FF05B7D23016E1F00108E87 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6FF05B7E23016E6100108E87 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -366,6 +377,7 @@
 				6F67AB0522FD7FB400F4F599 /* AddLocationVC.swift in Sources */,
 				6F67AB3322FE38F900F4F599 /* LocationListVC.swift in Sources */,
 				6F67AB3722FE3C2600F4F599 /* LocationCell.swift in Sources */,
+				6FF05B7F23016E6100108E87 /* UIViewControllerExtension.swift in Sources */,
 				6FF05B7C23014C5200108E87 /* BorderButton.swift in Sources */,
 				6F67AB4222FE847E00F4F599 /* DarkSkyService.swift in Sources */,
 				6FF05B6A23012B8800108E87 /* ForecastCell.swift in Sources */,
