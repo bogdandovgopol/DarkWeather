@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ForecastCell" id="gTV-IL-0wX" customClass="ForecastCell" customModule="DarkWeather" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZI8-Ii-tgy">
+                        <rect key="frame" x="0.0" y="0.0" width="60" height="100"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Awg-1E-Ith">
+                                <rect key="frame" x="10.5" y="22.5" width="39" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISK-tv-xtU">
+                                        <rect key="frame" x="0.0" y="0.0" width="39" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.77647058823529413" green="0.792156862745098" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOQ-7n-Jvj">
+                                        <rect key="frame" x="0.0" y="31" width="39" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.77647058823529413" green="0.792156862745098" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1843137255" green="0.21176470589999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Awg-1E-Ith" firstAttribute="centerX" secondItem="ZI8-Ii-tgy" secondAttribute="centerX" id="CgI-na-O2B"/>
+                            <constraint firstItem="Awg-1E-Ith" firstAttribute="centerY" secondItem="ZI8-Ii-tgy" secondAttribute="centerY" id="PRW-xq-zqD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ZI8-Ii-tgy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6wa-IH-eVz"/>
+                <constraint firstAttribute="trailing" secondItem="ZI8-Ii-tgy" secondAttribute="trailing" id="PZf-fM-app"/>
+                <constraint firstItem="ZI8-Ii-tgy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="RbL-YB-7hp"/>
+                <constraint firstAttribute="bottom" secondItem="ZI8-Ii-tgy" secondAttribute="bottom" id="eaS-7V-BfO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="72" height="400"/>
+            <connections>
+                <outlet property="degree" destination="zOQ-7n-Jvj" id="4pz-dN-b6c"/>
+                <outlet property="time" destination="ISK-tv-xtU" id="Rtc-wp-QHS"/>
+            </connections>
+            <point key="canvasLocation" x="153.62318840579712" y="228.01339285714283"/>
+        </collectionViewCell>
+    </objects>
+</document>
