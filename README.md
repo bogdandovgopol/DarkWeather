@@ -4,5 +4,5 @@ An iOS application that forecasts the weather via DarkSky API. You can save mult
 
 # What I Learned
 
-* Use Core Data
+* Core Data
 * DispatchGroup
