@@ -28,7 +28,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISK-tv-xtU">
                                         <rect key="frame" x="0.0" y="0.0" width="39" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <color key="textColor" red="0.77647058823529413" green="0.792156862745098" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.3529411764705882" green="0.38039215686274508" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOQ-7n-Jvj">
@@ -40,7 +40,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.1843137255" green="0.21176470589999999" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Awg-1E-Ith" firstAttribute="centerX" secondItem="ZI8-Ii-tgy" secondAttribute="centerX" id="CgI-na-O2B"/>
                             <constraint firstItem="Awg-1E-Ith" firstAttribute="centerY" secondItem="ZI8-Ii-tgy" secondAttribute="centerY" id="PRW-xq-zqD"/>
