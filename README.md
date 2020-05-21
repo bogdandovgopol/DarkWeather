@@ -8,3 +8,9 @@ An iOS application that forecasts the weather via DarkSky API. You can save mult
 
 * Core Data
 * DispatchGroup
+
+## Contact Info:
+- Email: bogdan@dovgopol.dev
+- Web: [dovgopol.dev](https://dovgopol.dev)
+
+# Thanks for stopping by!
