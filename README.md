@@ -2,15 +2,9 @@
 
 # DarkWeather
 
-An iOS application that forecasts the weather via DarkSky API. You can save multiple locations using CoreData.
+An iOS application that forecasts the weather via DarkSky API. The users can save multiple locations using CoreData.
 
 # What I Learned
 
 * Core Data
 * DispatchGroup
-
-## Contact Info:
-- Email: bogdan@dovgopol.dev
-- Web: [dovgopol.dev](https://dovgopol.dev)
-
-# Thanks for stopping by!
